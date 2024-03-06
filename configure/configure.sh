@@ -15,4 +15,6 @@ rm packages-microsoft-prod.deb
 sudo apt update
 
 sudo apt install aspnetcore-runtime-8.0
+sudo apt install nuget
+
 dotnet add package Beckhoff.TwinCAT.Ads.TcpRouter --version 6.1.197

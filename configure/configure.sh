@@ -20,9 +20,9 @@ sudo apt update
 sudo apt install aspnetcore-runtime-6.0
 sudo apt install dotnet-runtime-6.0
 sudo apt install dotnet-sdk-6.0
-sudo apt install nuget
 
-
+sudo apt-get install mono-complete
+wget https://dist.nuget.org/win-x86-commandline/latest/nuget.exe
 
 mkdir ~/adsrouter
 

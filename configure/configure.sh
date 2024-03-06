@@ -10,6 +10,7 @@ sudo dpkg -i packages-microsoft-prod.deb
 
 # Clean up
 rm packages-microsoft-prod.deb
+sudo cp ./99microsoft.-dotnet.pref /etc/apt/preferences.d/
 
 # Update packages
 sudo apt update

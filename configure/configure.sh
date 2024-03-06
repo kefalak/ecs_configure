@@ -5,6 +5,8 @@ declare repo_version=$(if command -v lsb_release &> /dev/null; then lsb_release 
 # Download Microsoft signing key and repository
 wget https://packages.microsoft.com/config/ubuntu/$repo_version/packages-microsoft-prod.deb -O packages-microsoft-prod.deb
 
+pwd
+
 # Install Microsoft signing key and repository
 sudo dpkg -i packages-microsoft-prod.deb
 

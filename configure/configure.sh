@@ -22,8 +22,11 @@ sudo apt install dotnet-runtime-6.0
 sudo apt install dotnet-sdk-6.0
 sudo apt install nuget
 
+
+
 mkdir ~/adsrouter
 
 cd ~/adsrouter
 dotnet new console
 dotnet add package Beckhoff.TwinCAT.Ads.TcpRouter --version 6.1.197
+dotnet add package Beckhoff.TwinCAT.Ads --version 6.1.197

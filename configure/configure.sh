@@ -14,8 +14,9 @@ rm packages-microsoft-prod.deb
 # Update packages
 sudo apt update
 
-sudo apt install aspnetcore-runtime-8.0
-sudo apt install dotnet-sdk-8.0
+sudo apt install aspnetcore-runtime-6.0
+sudo apt install dotnet-runtime-6.0
+sudo apt install dotnet-sdk-6.0
 sudo apt install nuget
 
 mkdir ~/adsrouter

@@ -18,4 +18,8 @@ sudo apt install aspnetcore-runtime-8.0
 sudo apt install dotnet-sdk-8.0
 sudo apt install nuget
 
+mkdir ~/adsrouter
+
+cd ~/adsrouter
+dotnet new console
 dotnet add package Beckhoff.TwinCAT.Ads.TcpRouter --version 6.1.197

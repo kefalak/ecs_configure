@@ -1,0 +1,26 @@
+{
+    "AmsRouter": {
+      "Name": "MyLocalSystem",
+      "NetId": "192.168.1.20.1.1",
+      "TcpPort": 48898,
+      "RemoteConnections": [
+        {
+          "Name": "RemoteSystem1",
+          "Address": "RemoteSystem1",
+          "NetId": "192.168.1.21.1.1",
+          "Type": "TCP_IP"
+        },
+        {
+          "Name": "RemoteSystem2",
+          "Address": "192.168.1.22",
+          "NetId": "192.168.1.22.1.1",
+          "Type": "TCP_IP"
+        },
+      ]
+    },
+    "Logging": {
+      "LogLevel": {
+        "Default": "Warning"
+      }
+    }
+  }

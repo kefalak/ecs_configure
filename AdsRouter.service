@@ -4,6 +4,7 @@ Description=ADS Router console application
 [Service]
 # systemd will run this executable to start the service
 # if /usr/bin/dotnet doesn't work, use `which dotnet` to find correct dotnet executable path
+WorkingDirectory=/srv/AdsConsole/
 ExecStart=/usr/bin/dotnet /srv/AdsConsole/AdsRouterConsoleApp.dll
 # to query logs using journalctl, set a logical name here
 SyslogIdentifier=AdsRouter

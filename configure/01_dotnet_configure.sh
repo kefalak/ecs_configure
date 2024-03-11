@@ -24,9 +24,9 @@ sudo apt install dotnet-sdk-8.0
 sudo apt-get install mono-complete
 wget https://dist.nuget.org/win-x86-commandline/latest/nuget.exe
 
-mkdir ~/adsrouter
+#mkdir ~/adsrouter
 
-cd ~/adsrouter
-dotnet new console
-dotnet add package Beckhoff.TwinCAT.Ads.TcpRouter --version 6.1.197
-dotnet add package Beckhoff.TwinCAT.Ads --version 6.1.197
+#cd ~/adsrouter
+#dotnet new console
+#dotnet add package Beckhoff.TwinCAT.Ads.TcpRouter --version 6.1.197
+#dotnet add package Beckhoff.TwinCAT.Ads --version 6.1.197
